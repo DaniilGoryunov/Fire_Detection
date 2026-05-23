@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+datasets/fire/train/
+datasets/fire/valid/
+datasets/fire/test/
+datasets/fire/data.yaml
+!datasets/fire/data.yaml.example
+
+runs/
+weights/**/*.pt
+weights/**/*.pth
+training/.cache/
+
+temp_videos/
+
+.DS_Store
+.idea/
+.vscode/
